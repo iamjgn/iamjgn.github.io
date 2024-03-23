@@ -1,81 +1,183 @@
 body
 {
 color:white;
+font-family:roboto;
+font-style:italic;
 background-color:black;
-font-family:Times New Roman;
 }
 
-.nav
+div#ult
 {
-margin:10px 20px 10px 20px;
+background-image:url('night.jpg');
 }
 
-h1.nav
+div#supermain
 {
-font-family:Nero;
+background-color:rgba(0,0,0,0.7);
 }
 
 div#main
 {
 width:100%;
+height:100vh;
+background:url('nightmain.jpg') no-repeat center;
+background-size:cover;
+}
+
+div#submain
+{
+width:100%;
 height:100%;
-//background:#ffffff url('jagan.jpg') no-repeat center center;
+background-color:rgba(0,0,0,0.5);
+}
+
+div#navbar
+{
+display:grid;
+grid-template-columns:auto auto;
+margin:10px 20px 10px 20px;
+padding-top:10px;
+}
+
+h1#nav
+{
+font-family:Nero;
+font-style:normal;
+font-size:200%;
+margin:0 0 0 0;
+}
+
+div#themeswitch
+{
+text-align:right;
+}
+
+button
+{
+color:black;
+background-color:white;
+border-width:0;
+font-family:Roboto;
+font-weight:bold;
+font-style:italic;
+font-size:100%;
+width:25%;
+height:100%;
 }
 
 h1#maintitle,h2#subtitle
 {
 text-align:center;
+font-family:Times New Roman;
 font-style:italic;
 }
 
 h1#maintitle
 {
 font-size:800%;
-margin:160px 0 0 0;
+margin:12% 0 0 0;
 }
 
 h2#subtitle
 {
 font-size:300%;
-margin-top:20px;
+margin-top:1.5%;
 }
 
-div#navtitle
-{
-float:left;
-vertical-align:middle;
-}
-
-div#themeswitch
-{
-float:right;
-vertical-align:middle;
-}
-
-hr
+hr,h3
 {
 clear:both;
 }
 
-button
+div#content
 {
+margin:0 20px 0 20px;
+}
+
+h3
+{
+font-size:200%;
+padding:0.5%;
+background-image:linear-gradient(to right,silver,transparent);
 color:black;
-width:150px;
-height:30px;
-background-color:white;
-border-width:0;
-font-family: Roboto;
+}
+
+ul
+{
+list-style-type:square;
+}
+
+dt
+{
+display:list-item;
+list-style-type:square;
 font-weight:bold;
-font-style:italic;
+}
+
+dd
+{
+margin:20px 0 20px 40px;
+}
+
+li
+{
+margin:20px 0 20px 0;
+}
+
+p,ul,a,dl
+{
+font-size:150%;
+}
+
+p,dl
+{
+margin-left:40px;
+}
+
+.edu1
+{
+list-style-type:none;
+}
+
+.edu2
+{
+font-weight:bold;
+}
+
+.edu1,.edu3
+{
+font-weight:normal;
+}
+
+a
+{
+text-decoration:none;
+background-color:black;
+color:white;
+font-weight:bold;
+padding:5px 20px 5px 20px;
+margin-right:20px;
+margin-left:20px;
+border:2px solid;
+border-color:white;
+border-radius:10px;
+}
+
+span
+{
+font-weight:bold;
 }
 
 h4
 {
+font-size:120%;
 text-align:center;
+margin:0 0 0 0;
+padding:10px 0 10px 0;
 }
 
 @font-face
 {
 font-family:Nero;
-src:url('Nero.otf');
+src:url('nero.otf');
 }
