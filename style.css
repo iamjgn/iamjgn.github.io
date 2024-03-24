@@ -11,7 +11,7 @@ div#ult
 background-image:url('night.jpg');
 }
 
-div#supermain
+div#super
 {
 background-color:rgba(0,0,0,0.7);
 }
@@ -80,8 +80,8 @@ margin:12% 0 0 0;
 
 h2#subtitle
 {
-font-size:300%;
-margin-top:1.5%;
+font-size:400%;
+margin-top:1%;
 }
 
 hr,h3
