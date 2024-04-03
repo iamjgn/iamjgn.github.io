@@ -17,7 +17,7 @@ div#navbar
 {
 display:grid;
 grid-template-columns:auto auto;
-margin:10px 20px 10px 20px;
+margin:0.5% 1% 0.5% 1%;
 }
 
 h1#nav
@@ -72,14 +72,14 @@ clear:both;
 
 div#content
 {
-margin:0 20px 0 20px;
+margin:0 1% 0 1%;
 }
 
 h3
 {
 font-size:2vw;
 padding:0.5%;
-margin:40px 0 40px 0;
+margin:3% 0 3% 0;
 background-image:linear-gradient(to right,silver,transparent);
 color:black;
 }
@@ -91,7 +91,7 @@ list-style-type:square;
 
 dd
 {
-margin:20px 0 20px 40px;
+margin:2% 0 2% 4%;
 }
 
 p,ul,dl,a
@@ -99,9 +99,9 @@ p,ul,dl,a
 font-size:1.5vw;
 }
 
-p,dl
+p,dl,a
 {
-margin-left:40px;
+margin-left:3%;
 }
 
 dt
@@ -126,25 +126,9 @@ font-weight:bold;
 font-weight:normal;
 }
 
-img
-{
-width:100px;
-height:100px;
-vertical-align:middle;
-}
-
 a
 {
-text-decoration:none;
-background-color:black;
 color:white;
-font-weight:bold;
-padding:0.5% 3% 0.5% 3%;
-margin-right:20px;
-margin-left:20px;
-border:2px solid;
-border-color:white;
-border-radius:10px;
 }
 
 span
@@ -156,7 +140,7 @@ h4
 {
 font-size:1.2vw;
 margin:0 0 0 0;
-padding:10px 0 10px 0;
+padding:1% 0 1% 0;
 text-align:center;
 }
 
