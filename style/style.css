@@ -22,7 +22,7 @@ margin:10px 20px 10px 20px;
 
 h1#nav
 {
-font-family:Nero;
+font-family:nero;
 font-style:normal;
 font-size:200%;
 margin:0 0 0 0;
@@ -38,7 +38,7 @@ button
 color:black;
 background-color:white;
 border-width:0;
-font-family:Roboto;
+font-family:roboto;
 font-weight:bold;
 font-style:italic;
 font-size:100%;
@@ -49,7 +49,7 @@ height:100%;
 h1#maintitle,h2#subtitle
 {
 text-align:center;
-font-family:Times New Roman;
+font-family:times new roman;
 font-style:italic;
 }
 
@@ -162,6 +162,6 @@ text-align:center;
 
 @font-face
 {
-font-family:Nero;
+font-family:nero;
 src:url('../res/nero.otf');
 }
