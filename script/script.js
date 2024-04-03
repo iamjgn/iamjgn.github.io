@@ -11,6 +11,7 @@ document.getElementsByTagName('body')[0].style.backgroundImage='url("res/night.j
 for(i=0;i<3;i++)
 {
 document.getElementsByTagName('a')[i].style.color='white';
+document.getElementsByTagName('a')[i].style.borderColor='white';
 }
 }
 else
@@ -24,6 +25,7 @@ document.getElementsByTagName('body')[0].style.backgroundImage='url("res/day.jpg
 for(i=0;i<3;i++)
 {
 document.getElementsByTagName('a')[i].style.color='black';
+document.getElementsByTagName('a')[i].style.borderColor='black';
 }
 }
 }
