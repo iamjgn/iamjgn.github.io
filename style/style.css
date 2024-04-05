@@ -41,7 +41,7 @@ font-family:roboto;
 font-weight:bold;
 font-style:italic;
 font-size:80%;
-width:25%;
+width:30%;
 height:100%;
 }
 
@@ -77,8 +77,8 @@ margin:0 1% 0 1%;
 h3
 {
 font-size:150%;
-padding:0.5%;
-margin:4% 0 4% 0;
+padding:1%;
+margin:8% 0 4% 0;
 background-image:linear-gradient(to right,silver,transparent);
 color:black;
 }
