@@ -24,7 +24,7 @@ h1#nav
 {
 font-family:nero;
 font-style:normal;
-font-size:200%;
+font-size:2vw;
 margin:0 0 0 0;
 }
 
@@ -41,7 +41,7 @@ border-width:0;
 font-family:roboto;
 font-weight:bold;
 font-style:italic;
-font-size:100%;
+font-size:1vw;
 width:25%;
 height:100%;
 }
@@ -55,13 +55,13 @@ font-style:italic;
 
 h1#maintitle
 {
-font-size:800%;
+font-size:8vw;
 margin:25vh 0 0 0;
 }
 
 h2#subtitle
 {
-font-size:400%;
+font-size:4vw;
 margin-top:2vh;
 }
 
@@ -96,7 +96,7 @@ margin:2% 0 2% 4%;
 
 p,ul,dl,a,#skills
 {
-font-size:1.5vw;
+font-size:150%;
 }
 
 p,dl,a,#skills
