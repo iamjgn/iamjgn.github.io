@@ -94,12 +94,12 @@ dd
 margin:2% 0 2% 4%;
 }
 
-p,ul,dl,a
+p,ul,dl,a,#skills
 {
 font-size:1.5vw;
 }
 
-p,dl,a
+p,dl,a,#skills
 {
 margin-left:3%;
 }
@@ -116,7 +116,7 @@ font-weight:bold;
 list-style-type:none;
 }
 
-.edu2
+.edu2,a
 {
 font-weight:bold;
 }
@@ -126,10 +126,27 @@ font-weight:bold;
 font-weight:normal;
 }
 
+#skills
+{
+display:flex;
+flex-wrap:wrap;
+}
+
+#skills>div
+{
+width:15vw;
+border:2px solid white;
+border-radius:10px;
+text-align:center;
+padding:1% 1% 1% 1%;
+margin:1% 2% 1% 0;
+}
+
 a
 {
 text-decoration:none;
-color:white;
+color:black;
+background-color:white;
 border:2px solid;
 border-color:white;
 border-radius:5px;
