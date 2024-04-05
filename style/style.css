@@ -55,13 +55,13 @@ font-style:italic;
 
 h1#maintitle
 {
-font-size:8vw;
+font-size:800%;
 margin:25vh 0 0 0;
 }
 
 h2#subtitle
 {
-font-size:4vw;
+font-size:400%;
 margin-top:2vh;
 }
 
@@ -77,7 +77,7 @@ margin:0 1% 0 1%;
 
 h3
 {
-font-size:2vw;
+font-size:200%;
 padding:0.5%;
 margin:4% 0 4% 0;
 background-image:linear-gradient(to right,silver,transparent);
