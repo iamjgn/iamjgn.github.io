@@ -24,7 +24,7 @@ h1#nav
 {
 font-family:nero;
 font-style:normal;
-font-size:2vw;
+font-size:200%;
 margin:0 0 0 0;
 }
 
@@ -41,7 +41,7 @@ border-width:0;
 font-family:roboto;
 font-weight:bold;
 font-style:italic;
-font-size:1vw;
+font-size:100%;
 width:25%;
 height:100%;
 }
