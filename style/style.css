@@ -15,8 +15,9 @@ height:100vh;
 
 div#navbar
 {
-display:grid;
-grid-template-columns:auto auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
 margin:0.5% 1% 0.5% 1%;
 }
 
@@ -25,11 +26,7 @@ h1#nav
 font-family:nero;
 font-style:normal;
 font-size:160%;
-}
-
-div#themeswitch
-{
-text-align:right;
+margin:0 0 0 0;
 }
 
 button
@@ -41,8 +38,7 @@ font-family:roboto;
 font-weight:bold;
 font-style:italic;
 font-size:80%;
-width:30%;
-height:100%;
+padding:0.5% 3% 0.5% 3%;
 }
 
 h1#maintitle,h2#subtitle
@@ -62,11 +58,6 @@ h2#subtitle
 {
 font-size:4vw;
 margin-top:2vh;
-}
-
-hr,h3
-{
-clear:both;
 }
 
 div#content
