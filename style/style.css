@@ -57,13 +57,13 @@ font-style:italic;
 
 h1#maintitle
 {
-font-size:8vw;
+font-size:7vw;
 margin:0 0 0 0;
 }
 
 h2#subtitle
 {
-font-size:4vw;
+font-size:3.5vw;
 margin-top:2vh;
 }
 
@@ -74,7 +74,7 @@ margin:0 1% 0 1%;
 
 h3
 {
-font-size:150%;
+font-size:130%;
 padding:1%;
 margin:8% 0 4% 0;
 background-image:linear-gradient(to right,silver,transparent);
@@ -93,7 +93,7 @@ margin:2% 0 2% 4%;
 
 p,ul,dl,a,#skills
 {
-font-size:120%;
+font-size:100%;
 }
 
 p,dl,a,#skills
@@ -155,7 +155,7 @@ font-weight:bold;
 
 h4
 {
-font-size:100%;
+font-size:90%;
 margin:0 0 0 0;
 padding:1% 0 1% 0;
 text-align:center;
