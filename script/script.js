@@ -1,6 +1,6 @@
 function theme()
 {
-if (document.getElementsByTagName('body')[0].style.backgroundColor=='white')
+if (document.getElementsByTagName('body')[0].style.color=='black')
 	{
 	document.getElementsByTagName('body')[0].style.backgroundColor='#0d0d0d;
 	document.getElementsByTagName('body')[0].style.color='white';
