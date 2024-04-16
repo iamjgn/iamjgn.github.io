@@ -41,6 +41,14 @@ font-size:80%;
 padding:0.5% 3% 0.5% 3%;
 }
 
+#mstitle
+{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
 h1#maintitle,h2#subtitle
 {
 text-align:center;
@@ -51,7 +59,7 @@ font-style:italic;
 h1#maintitle
 {
 font-size:8vw;
-margin:30vh 0 0 0;
+margin:0 0 0 0;
 }
 
 h2#subtitle
