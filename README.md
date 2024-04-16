@@ -1,2 +1,3 @@
 # iamjgn.github.io
-<h1>My Website</h1>
+<h2>My Website</h2>
+<h3>Made with HTML,CSS & JavaScript</h3>
