@@ -3,7 +3,7 @@ body
 color:white;
 font-family:roboto;
 font-style:italic;
-background-color:#0d0d0d;
+background-color:black;
 }
 
 div#main
@@ -63,7 +63,7 @@ margin:0 0 0 0;
 
 h2#subtitle
 {
-font-size:3.5vw;
+font-size:4vw;
 margin-top:2vh;
 }
 
@@ -81,46 +81,10 @@ background-image:linear-gradient(to right,silver,transparent);
 color:black;
 }
 
-ul
-{
-list-style-type:square;
-}
-
-dd
-{
-margin:2% 0 2% 4%;
-}
-
-p,ul,dl,a,#skills
+p,a,#skills
 {
 font-size:100%;
-}
-
-p,dl,a,#skills
-{
 margin-left:3%;
-}
-
-dt
-{
-display:list-item;
-list-style-type:square;
-font-weight:bold;
-}
-
-.edu1
-{
-list-style-type:none;
-}
-
-.edu2,a
-{
-font-weight:bold;
-}
-
-.edu1,.edu3
-{
-font-weight:normal;
 }
 
 #skills
@@ -140,11 +104,13 @@ margin:1.5% 3% 1.5% 0;
 
 a
 {
+font-weight:bold;
 text-decoration:none;
-color:black;
-background-color:white;
+color:white;
+border:1px solid white;
+border-color:white;
 border-radius:5px;
-padding:0.5% 3% 0.5% 3%;
+padding:0.5% 4% 0.5% 4%;
 }
 
 span
