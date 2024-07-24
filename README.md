@@ -1,2 +1,2 @@
 # iamjgn.github.io
-My Website
+My Portfolio
