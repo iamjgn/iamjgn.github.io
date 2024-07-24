@@ -1,54 +1,102 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-
 <title>JGN</title>
-
 <meta name='viewport' content='width=device-width,initial-scale=1'>
 <link rel='stylesheet' type='text/css' href='style/style.css'>
 <script type='text/javascript' src='script/script.js'></script>
-
 </head>
 <body>
-
-<div id='main'>	
-	<div id='navbar'>
-		<h1 id='nav'>JGN</h1>
-		<button type='button' onclick='theme()'>Day Mode</button>
-	</div>
-	<hr>
-	<div id='mstitle'>
-		<div>
-			<h1 id='maintitle'>Jagan Panigrahy</h1>
-			<h2 id='subtitle'>Web Developer</h2>
-		</div>
-	</div>
-</div>
-<div id='content'>
-	<h3>About Me</h3>
-	<p>Innovative, proficient and detail-oriented web developer with a passion for building responsive and user-friendly websites and web applications.</p>
-	<h3>Skills</h3>
-	<div id='skills'>
-		<div>HTML</div>
-		<div>CSS</div>
-		<div>JavaScript</div>
-		<div>PHP</div>
-		<div>MySQL</div>
-		<div>Git</div>
-	</div>
-	<h3>Projects</h3>
-	<p>Loading...</p>
-	<h3>Social</h3>
-	<a href='https://www.github.com/iamjgn' onmouseover='btn(this)' onmouseout='ntb(this)'>GitHub</a>
-	<a href='https://www.artstation.com/jgn' onmouseover='btn(this)' onmouseout='ntb(this)'>ArtStation</a>
-	<h3>Contact</h3>
-	<p><span>Email: &nbsp</span>jaganx97@gmail.com<br>
-	<br><span>Phone: &nbsp</span>+917750083199</p>
-	<h3 style='display:hidden;background-image:none'></h3>
+<div id='nav'>
+<h1 id='ntitle'>JGN</h1>
+<a id='tlink' href='#'><div id='theme' onclick='theme()'>Day Mode</div></a>
 </div>
 <hr>
-<h4>2024. Jagan Panigrahy</h4>
-
+<div id='main'>
+<div>
+<h1 class='mstitle'>Jagan Panigrahy</h1>
+<h2 class='mstitle'>Web Developer</h2>
+<br>
+<a class='elink' href='mailto:jaganx97@gmail.com' onmouseover='btn(this)' onmouseout='ntb(this)'>Get in Touch</a>
+<a class='elink' href='#explore' onmouseover='btn(this)' onmouseout='ntb(this)'>Explore &nbsp></a>
+</div>
+</div>
+<div id='explore'></div>
+<h2 class='ctitle'>About Me</h2>
+<div class='content'>
+<div id='about'>
+<p>
+Hey there! I'm Jagan, a web developer with a passion for creating websites and web applications. Although I'm relatively new to the field, my journey into web development began with a strong interest in technology and a desire to create seamless digital experiences that are both intuitive and functional.
+<br><br>
+Currently, I'm focusing on learning the fundamentals of web development, including HTML, CSS and JavaScript, while also exploring libraries and frameworks such as Bootstrap for responsive design, React for building dynamic user interfaces, and Node.js for server-side development. Additionally, I'm delving into MongoDB for backend development, as it offers a flexible and scalable solution for managing data in web applications. 
+<br><br>
+I approach every project with curiosity and dedication. I enjoy the challenge of solving problems and learning new techniques along the way. While I may not have professional experience yet, I make up for it with a willingness to learn and a keen eye for detail.
+</p>
+</div>
+</div>
+<br><br><br>
+<h2 class='ctitle'>Skills</h2>
+<div class='content'>
+<div id='skill'>
+<div><img src='assets/html.png'><p>HTML</p></div>
+<div><img src='assets/css.png'><p>CSS</p></div>
+<div><img src='assets/js.png'><p>JavaScript</p></div>
+<div><img src='assets/bootstrap.png'><p>Bootstrap</p></div>
+<div><img src='assets/react.png'><p>React</p></div>
+<div><img src='assets/node.png'><p>Node.js</p></div>
+<div><img src='assets/mongodb.png'><p>MongoDB</p></div>
+<div><img src='assets/git.png'><p>Git</p></div>
+</div>
+</div>
+<br><br><br>
+<h2 class='ctitle'>Projects</h2>
+<div class='content'>
+<div id='projects'>
+<div class='project'>
+<div class='prosnap'><img class='proimg' src='assets/p1.jpg'></div>
+<div class='prodesc'>
+<h3>Portfolio Website</h3>
+<p>
+Technologies used: HTML, CSS & JavaScript
+</p>
+<p>
+A personal portfolio website to effectively showcase my skills, projects, and achievements to potential employers and clients. Regularly updated to reflect ongoing growth and expertise. The website serves as a portfolio to highlight my professional profile.
+</p>
+<div>
+<a class='plink' href='#nav' onmouseover='btn(this)' onmouseout='ntb(this)'><div>View Live</div></a>
+<a class='plink' href='https://github.com/iamjgn/iamjgn.github.io' onmouseover='btn(this)' onmouseout='ntb(this)'><div>Code</div></a>
+</div>
+</div>
+</div>
+<!-- <br><br> -->
+</div>
+</div>
+<br><br><br>
+<h2 class='ctitle'>Hobbies & Interests</h2>
+<div class='content'>
+<div id='hni'>
+<h3>Gaming</h3>
+<p>
+Gaming is a passion of mine, whether it's diving into immersive worlds or strategizing in competitive games. It's a great way for me to relax and challenge myself.
+</p>
+<br>
+<h3>Graphic Design</h3>
+<p>
+I enjoy exploring graphic design as a creative outlet, experimenting with colors, shapes, and digital tools to create visually appealing compositions.
+</p>
+</div>
+</div>
+<br><br><br>
+<h2 class='ctitle'>Social</h2>
+<div class='content'>
+<div id='social'>
+<a class='slink' href='https://linkedin.com/in/iamjgn' onmouseover='btn(this)' onmouseout='ntb(this)'>LinkedIn</a>
+<a class='slink' href='https://github.com/iamjgn' onmouseover='btn(this)' onmouseout='ntb(this)'>GitHub</a>
+<a class='slink' href='https://artstation.com/jgn' onmouseover='btn(this)' onmouseout='ntb(this)'>ArtStation</a>
+</div>
+</div>
+<br><br><br>
+<hr>
+<footer>&copy; 2024 Jagan Panigrahy</footer>
 </body>
 </html>
