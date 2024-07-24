@@ -87,7 +87,6 @@ div#skill
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
-width:95%;
 }
 
 #skill > div
@@ -98,7 +97,7 @@ justify-content:flex-start;
 align-items:center;
 border-style:solid;
 border-width:2px;
-width:130px;
+width:120px;
 padding:5px 20px 5px 20px;
 margin:10px;
 box-shadow:5px 0px 0px 0px rgba(255,255,255,1);
