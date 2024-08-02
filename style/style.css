@@ -28,18 +28,6 @@ a#tlink,a.elink,a.plink,a.slink
 text-decoration:none;
 }
 
-a.elink
-{
-text-align:center;
-font-weight:bold;
-color:white;
-background-color:black;
-border-style:solid;
-border-width:2px;
-padding:10px 30px 10px 30px;
-margin-right:20px;
-}
-
 div#theme
 {
 color:black;
@@ -64,6 +52,18 @@ width:90%;
 h1.mstitle,h2.mstitle
 {
 font-family:times new roman;
+}
+
+a.elink
+{
+text-align:center;
+font-weight:bold;
+color:white;
+background-color:black;
+border-style:solid;
+border-width:2px;
+padding:10px 30px 10px 30px;
+margin-right:20px;
 }
 
 h2.ctitle
