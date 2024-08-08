@@ -57,7 +57,7 @@ font-family:times new roman;
 div#exbtn
 {
 display:flex;
-flex-flow:row wrap;
+flex-flow:row nowrap;
 }
 
 a.elink
