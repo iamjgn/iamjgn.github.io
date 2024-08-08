@@ -18,7 +18,7 @@ div#nav
 display:flex;
 justify-content:space-between;
 align-items:center;
-height:40px;
+height:5vh;
 padding-left:5px;
 padding-right:5px;
 }
@@ -54,16 +54,28 @@ h1.mstitle,h2.mstitle
 font-family:times new roman;
 }
 
+div#exbtn
+{
+display:flex;
+flex-flow:row wrap;
+}
+
 a.elink
 {
-text-align:center;
-font-weight:bold;
 color:white;
-background-color:black;
+font-weight:bold;
+margin-right:20px;
+}
+
+.elink > div
+{
+display:flex;
+justify-content:center;
+align-items:center;
+width:150px;
+height:35px;
 border-style:solid;
 border-width:2px;
-padding:10px 30px 10px 30px;
-margin-right:20px;
 }
 
 h2.ctitle
