@@ -135,7 +135,7 @@ width:90%;
 .category
 {
 text-align:center;
-margin:0 0 5px 0;
+margin:5px 0 5px 0;
 }
 
 .skill
@@ -143,6 +143,7 @@ margin:0 0 5px 0;
 display:flex;
 justify-content:center;
 flex-flow:row wrap;
+margin-bottom:10px;
 }
 
 .skill > div
